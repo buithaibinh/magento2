@@ -12,3 +12,7 @@ https://glasson.sk-global.biz/en.html
 * Run Command:
 <b>php bin/magento setup:static-content:deploy</b>
 * Now Flush Cache: <b>php bin/magento cache:flush</b>
+
+<b>PRODUCT VIEW PAGE</b>
+
+<img src="https://raw.githubusercontent.com/buithaibinh/assets/master/tryon.png" alt="View Page" border="0">
