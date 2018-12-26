@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <glasson>
+            <tryon>
+                <enable_list>1</enable_list>
+                <enable_view>1</enable_view>
+                <enable_search>1</enable_search>
+                <enable_advanced_search>1</enable_advanced_search>
+                <enable_related>1</enable_related>
+                <glasson_user_id>1</glasson_user_id>
+                <button_title>Try On</button_title>
+            </tryon>
+        </glasson>
+    </default>
+</config>

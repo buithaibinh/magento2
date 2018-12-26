@@ -1,0 +1,91 @@
+.catalog-category-view .product-item-inner.tryon {
+  position: relative;
+  border: none;
+  box-shadow: none;
+  padding: 0 0 5px 1px;
+}
+
+.catalog-category-view button.tryon {
+  width: 103px;
+}
+
+.catalog-product-view #product-addtocart-button {
+  float: left;
+}
+.product-social-links {
+  clear: both;
+}
+.tryon-button #tryon-now {
+  width: 49%;
+  line-height: 2.2rem;
+  padding: 14px 17px;
+  font-size: 1.8rem;
+  background: url('../images/try_on_btn.png') center center no-repeat;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.tryon-button #tryon-now:hover {
+  /* transform: scale(1.1); */
+  border: 1px solid red;
+}
+
+@media only screen and (max-width: 767px) {
+  .tryon-button #tryon-now {
+    width: 100%;
+  }
+}
+
+.button.tryon {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.catalog-category-view .product.actions.product-item-actions {
+  margin: 0px;
+}
+.try-on-modal .modal-header {
+  right: -45px;
+  top: -45px;
+  position: absolute;
+}
+.try-on-modal .modal-content {
+  padding: 2.6rem;
+}
+.loading-iframe {
+  background: url('../images/bg.gif') center center no-repeat;
+  /* background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100% 100%"><text fill="%23FF0000" x="50%" y="50%" font-family="\'Lucida Grande\', sans-serif" font-size="24" text-anchor="middle">Loading data! Please wait...</text></svg>') 0px 0px no-repeat; */
+}
+
+.loading-iframe {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.loading-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.tryon-wrap {
+  width: 40px;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.tryon-ico {
+  width: 30px;
+  height: 20px;
+  background: url('../images/try_on_ico.png') center center no-repeat !important;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.tryon-ico:hover {
+  border: 1px solid red;
+}

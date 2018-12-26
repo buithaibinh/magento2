@@ -1,0 +1,21 @@
+<?php $helper = $this->helper("Skg\Glasson\Helper\Data"); ?>
+<?php $buttonTitle = $helper->getConfig('glasson/tryon/button_title'); ?>
+<?php $userId = $helper->getConfig('glasson/tryon/glasson_user_id'); ?>
+<?php 
+$product =  $block->getProduct();
+$glassProId = $product->getCustomAttribute('glasson_id');
+?>
+<?php if (isset($glassProId)) : ?>
+<div class="tryon-button">
+    <button type="button" title="<?php /* @escapeNotVerified */ echo __($buttonTitle) ?>" id="tryon-now" class="action primary" data-mage-init='
+    {
+        "Skg_Glasson/js/glasson": {
+            "userId": "<?php echo $userId ; ?>",
+            "glassProId": "<?php echo $glassProId->getValue() ; ?>"
+        }
+    }
+    '>
+        <span>&nbsp;</span>
+    </button>
+</div>
+<?php endif; ?>

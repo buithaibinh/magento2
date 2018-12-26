@@ -1,0 +1,25 @@
+{
+    "name": "Skg/module-tryon",
+    "description": "Magento2 GlassOn Tryon Module",
+    "homepage": "https://github.com/buithaibinh/magento2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+          "name": "Binh Bui",
+          "email": "buithaibinh@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/buithaibinh/magento2/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Skg\\Glasson\\": ""
+        }
+    }
+}
