@@ -1,1 +1,1 @@
-A collection of module/theme create by SKG
+A collection of module/theme created by SKG
